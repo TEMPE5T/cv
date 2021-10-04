@@ -15,6 +15,7 @@ h1{
 }
 
 h2{
+    font-size:2.25rem;
     font-family: 'Montserrat', sans-serif;
     color:#FFC947;
 }
@@ -22,22 +23,31 @@ h3{
     font-family: 'Montserrat', sans-serif;
     color:#47b9e6;
 }
-a{
+a{  
+    font-family: 'Montserrat', sans-serif;
     color:#11999E;
+    text-decoration: none;
+}
+a:hover{
+    color:#FFC947; 
+    transition: 0.3s;
 }
 hr{
+    color: #92b5ff4f;
     margin:100px auto 100px auto;
-    width:30%;
+    width:25%;
     border:10px;
     border-style: dotted none none none;
 }
+
 .who{
-    color: #66BFBF
+    color: #FFC947
 }
 .who-sub{
+    font-size:1.666rem;
     line-height: 2;
     font-weight: normal;
-    color: #66BFBF
+    color: #FFC947
 }
 .topcontainer{
     background-color: #223d75;
@@ -47,6 +57,8 @@ hr{
 }
 
 
+
+
 .middle-container{
     margin:0px;
     
@@ -54,12 +66,13 @@ hr{
 }
 .intro{
     margin: auto;
-    width: 55%;
+    width: 40%;
 }
 .bottom-container{
     background-color: #1859dbc0;
-    margin:20px auto 20px auto;
+    margin:100px auto 0px auto;
     padding:25px;
+    height:50px
     
 }
 .topcloud{
@@ -110,16 +123,18 @@ hr{
 
 .skills-gif{
     width: 45%;
-    border-style: ridge;
+    border-style: solid;
+    border-radius: 10px;
     float: left;
     margin-right: 30px;
 }
 
 .skills-gif-alt{
     width: 45%;
-    border-style: ridge;
+    border-style: solid;
+    border-radius: 10px;
     float: right;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .skill-row{
@@ -137,6 +152,50 @@ hr{
 }
 
 .footer-link{
-    margin:7%;
+    position:relative;
+    margin:80px 80px;
     
+}
+.copyright{
+    position:relative;
+    bottom:0px;
+    margin:25px;
+    font-size:0.75rem;
+}
+.contact-me{
+    line-height: 0.6666;
+}
+.contact-message{
+    margin: 40px auto 60px;
+    width:40%;
+}
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #185ADB;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    
+  }
+  
+.btn:hover {
+    padding: 15px 25px 15px 25px;
+    color: #ffffff;
+    background: #dbaf48;
+    text-decoration: none;
+    transition: 0.5s;
+    
+  }
+.background{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.stars{
+    width:100%;
 }
