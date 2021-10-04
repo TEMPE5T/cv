@@ -1,0 +1,142 @@
+body{
+    text-align: center;
+    margin: 0%;
+    background-color: #040F26;
+    color:#92b4ff;
+    font-family: 'roboto', sans-serif;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:#66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#FFC947;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#47b9e6;
+}
+a{
+    color:#11999E;
+}
+hr{
+    margin:100px auto 100px auto;
+    width:30%;
+    border:10px;
+    border-style: dotted none none none;
+}
+.who{
+    color: #66BFBF
+}
+.who-sub{
+    line-height: 2;
+    font-weight: normal;
+    color: #66BFBF
+}
+.topcontainer{
+    background-color: #223d75;
+    position: relative;
+    padding-top: 100px;
+    height:100%; 
+}
+
+
+.middle-container{
+    margin:0px;
+    
+    
+}
+.intro{
+    margin: auto;
+    width: 55%;
+}
+.bottom-container{
+    background-color: #1859dbc0;
+    margin:20px auto 20px auto;
+    padding:25px;
+    
+}
+.topcloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    height: 60px;
+    width:275px;
+    -webkit-animation: 25s linear 1s infinite alternate slideint;
+}
+@keyframes slideint{
+    from {
+        left: 70%;
+      }
+      to {
+        left: 20%;
+      }
+    }
+
+.shootingstar{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    top: 300px;
+
+
+}
+.bottomcloud{
+    position: absolute;
+    left: 20%;
+    bottom: 300px;
+    -webkit-animation: 18s linear 1s infinite alternate slideinb;
+}
+ @keyframes slideinb{
+    from {
+        left: 20%;
+      }
+      to {
+        left: 70%;
+      }
+    }
+
+.profile{
+    margin-top: 30px;
+}
+
+
+.skills-gif{
+    width: 45%;
+    border-style: ridge;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills-gif-alt{
+    width: 45%;
+    border-style: ridge;
+    float: right;
+    margin-right: 30px;
+}
+
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.footer-link{
+    margin:7%;
+    
+}
