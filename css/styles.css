@@ -66,6 +66,7 @@ hr{
 .intro{
     margin: auto;
     width: 45%;
+    line-height: 1.5;
 }
 .bottom-container{
     background-color: #1859dbc0;
@@ -153,7 +154,7 @@ hr{
     width:50%;
     margin:100px auto 100px auto;
     text-align: left;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .footer-link{
